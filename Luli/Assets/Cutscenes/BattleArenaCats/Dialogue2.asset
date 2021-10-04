@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5535a70185da94faaca9877f584b56, type: 3}
+  m_Name: Dialogue2
+  m_EditorClassIdentifier: 
+  frames:
+  - dialogueName: BattleClub2
+    dialogueIndex: 0
+    face: {fileID: 21300000, guid: c1c5bb17bb502844fad162092077dcff, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 1
+    face: {fileID: 21300000, guid: c37190e34fd5e3840a13997ed160cc66, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 2
+    face: {fileID: 0}
+    voice: {fileID: 0}
+  - dialogueName: BattleClub2
+    dialogueIndex: 3
+    face: {fileID: 21300000, guid: c37190e34fd5e3840a13997ed160cc66, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 4
+    face: {fileID: 21300000, guid: 753137938bc479c46bdc0899e3924937, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 5
+    face: {fileID: 21300000, guid: 753137938bc479c46bdc0899e3924937, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 6
+    face: {fileID: 21300000, guid: 743068c6d8ab9c94bb22ec6099c84fff, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 7
+    face: {fileID: 21300000, guid: 69d37e314e3d8ec4da2808cc076dba16, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 8
+    face: {fileID: 21300000, guid: 69d37e314e3d8ec4da2808cc076dba16, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 9
+    face: {fileID: 21300000, guid: 743068c6d8ab9c94bb22ec6099c84fff, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 10
+    face: {fileID: 21300000, guid: b9dac524bc6f9d5418247e515ee6325e, type: 3}
+    voice: {fileID: 8300000, guid: 85ebb87fc8a03f646a540f9c189ede5c, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 11
+    face: {fileID: 21300000, guid: 11840c5adf095244bbe20ac173e63d57, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
+  - dialogueName: BattleClub2
+    dialogueIndex: 12
+    face: {fileID: 21300000, guid: 743068c6d8ab9c94bb22ec6099c84fff, type: 3}
+    voice: {fileID: 8300000, guid: a902cf80082fff546bd4efdd242c32e8, type: 3}
