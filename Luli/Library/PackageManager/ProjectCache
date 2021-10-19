@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637702696060865122
-    m_Hash: 4084269173
+      ticks: 637702746953857260
+    m_Hash: 771575371
   m_LockFileStatus:
     m_FilePath: E:/Luli/Project/luli-game/Luli/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637702696061504521
-    m_Hash: 1714866194
+      ticks: 637702746954885715
+    m_Hash: 2327445237
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -967,12 +967,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.11
+- packageId: com.unity.ide.visualstudio@2.0.7
   testable: 0
   isDirectDependency: 1
-  version: 2.0.11
+  version: 2.0.7
   source: 1
-  resolvedPath: E:\Luli\Project\luli-game\Luli\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+  resolvedPath: E:\Luli\Project\luli-game\Luli\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1035,23 +1035,23 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637613656180000000
+  datePublishedTicks: 637486638490000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+    revision: dec282022c7a95fada560c36f53da9dd155a142c
     path: 
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.ide.vscode@1.2.4
+- packageId: com.unity.ide.vscode@1.2.3
   testable: 0
   isDirectDependency: 1
-  version: 1.2.4
+  version: 1.2.3
   source: 1
-  resolvedPath: E:\Luli\Project\luli-game\Luli\Library\PackageCache\com.unity.ide.vscode@1.2.4
+  resolvedPath: E:\Luli\Project\luli-game\Luli\Library\PackageCache\com.unity.ide.vscode@1.2.3
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -1099,13 +1099,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637660806170000000
+  datePublishedTicks: 637394922300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
+    revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
     path: 
   unityLifecycle:
     version: 
