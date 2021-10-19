@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ItemCollection>
+    <Texts>
+        <Text index="MainMenu:0">
+            <Brazil>Novo Jogo</Brazil>
+            <English>New Game</English>
+            <French>Nouveau Jeu</French>
+        </Text>
+        <Text index="MainMenu:1">
+            <Brazil>Continuar</Brazil>
+            <English>Continue</English>
+            <French>Continuer</French>
+        </Text>
+        <Text index="MainMenu:2">
+            <Brazil>Instrucoes</Brazil>
+            <English>Instructions</English>
+            <French>Instructions</French>
+        </Text>
+        <Text index="MainMenu:3">
+            <Brazil>
+
+Direcionais/AS
+Andam para Esquerda e
+Direita
+
+Espaco
+Pula
+
+Ctrl Esquerdo/Clique Esquerdo
+Corre e Segue Dialogo
+
+Clique Direito
+Ataque (Filhote nao Ataca)
+
+Esc
+Pause/Fecha o jogo
+
+Creditos:
+Matheus Rezende Porto(Programador, Designer, Arte, Efeitos Sonoros)
+Earthbound (Musicas)
+</Brazil>
+            
+            <English>
+
+Left and Right Arrow/AS
+Walk to Left and Right
+                
+Space
+Jump
+                
+Left Ctrl/Left Mouse Click
+Run and Dialogue
+                
+Right Mouse Click
+Attack (Except Puppy)
+                
+Esc
+Pause/Close Game
+
+Credits:
+Matheus Rezende Porto(Programmer, Designer, Art, Sound Effects)
+Earthbound (Musics)
+</English>
+            
+            <French>
+                
+Flèche gauche et droite/AS
+Marcher a gauche et à droite
+                
+Espacer
+Saut
+                
+Ctrl gauche/clic gauche de la souris
+Courir et dialoguer
+                
+Clic droit de la souris
+Attaque (sauf chiot)
+                
+Esc
+Suspendre/Fermer le jeu
+
+Crédits:
+Matheus Rezende Porto (Programmeur, Designer, Art, Effets sonores)
+Earthbound (Musiques)
+</French>
+        </Text>
+        <Text index="MainMenu:4">            
+            <Brazil>Começar um novo jogo vai apagar o ultimo.
+Tem certeza?</Brazil>
+            <English>Starting a new game will erase the last one.
+Are you sure?</English>
+            <French>lancer un nouveau jeu effacera le dernier.
+Es-tu sûr?</French>
+        </Text>
+        <Text index="MainMenu:5">
+            <Brazil>Sim</Brazil>
+            <English>Yes</English>
+            <French>Oui</French>
+        </Text>
+        <Text index="MainMenu:6">
+            <Brazil>Nao</Brazil>
+            <English>No</English>
+            <French>Non</French>
+        </Text>
+
+        <Text index="Transition:Empty">
+            <Brazil></Brazil>
+            <English></English>
+            <French></French>
+        </Text>
+        <Text index="Transition:0">
+            <Brazil>3 anos depois...</Brazil>
+            <English>3 years later...</English>
+            <French>3 annes plus tard...</French>
+        </Text>
+        <Text index="Transition:1">
+            <Brazil>Obrigado por jogar!</Brazil>
+            <English>Thank you for playing!</English>
+            <French>Merci d'avoir joué!</French>
+        </Text>
+
+
+        <Text index="CasaFilhote:0">
+            <Brazil>Fim de Jogo</Brazil>
+            <English>Game Over</English>
+            <French>Fin du Jeu</French>
+        </Text>
+        <Text index="CasaFilhote:1">
+            <Brazil>Reiniciar</Brazil>
+            <English>Reset</English>
+            <French>Réinitialiser</French>
+        </Text>
+        <Text index="CasaFilhote:2">
+            <Brazil>Sair</Brazil>
+            <English>Exit</English>
+            <French>Sortez</French>
+        </Text>
+        <Text index="CasaFilhote:3">
+            <Brazil>Continuar</Brazil>
+            <English>Continue</English>
+            <French>Continuer</French>
+        </Text>
+
+        <Text index="Dialogue:Inicial:0">
+            <Brazil>Mãe, to indo pra escola!</Brazil>
+            <English>Mom, im going to school!</English>
+            <French>Maman, je vais à l´ecole</French>
+        </Text>
+        <Text index="Dialogue:Inicial:1">
+            <Brazil>Ah nao, o mestre esta indo embora</Brazil>
+            <English>Oh no, master is going out</English>
+            <French>Oh non, le maitre sort</French>
+        </Text>
+        <Text index="Dialogue:Inicial:2">
+            <Brazil>Devo ir atras dele!</Brazil>
+            <English>I have to go after him!</English>
+            <French>Je dois aller apres lui!</French>
+        </Text>
+
+        <Text index="Dialogue:Inicial2:0">
+            <Brazil>O mestre sempre me disse pra nao atravessar a estrada</Brazil>
+            <English>The master always told me not to cross the road</English>
+            <French>Le maître m'a toujours dit de ne pas traverser la route</French>
+        </Text>
+        <Text index="Dialogue:Inicial2:1">
+            <Brazil>Mas vou ter que desobedecer dessa vez</Brazil>
+            <English>But I will have to disobey this time</English>
+            <French>Mais je vais devoir désobéir cette fois</French>
+        </Text>
+        <Text index="Dialogue:Inicial2:2">
+            <Brazil>Não vou deixar ele ir embora sem mim!</Brazil>
+            <English>I won't let him go without me!</English>
+            <French>Je ne le laisserai pas partir sans moi!</French>
+        </Text>
+
+        <Text index="Dialogue:Inicial3:0">
+            <Brazil>Quase... la...</Brazil>
+            <English>Almost...there...</English>
+            <French>Presque là...</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:1">
+            <Brazil>Ja ta cansada é?</Brazil>
+            <English>Are you tired?</English>
+            <French>Êtes vous fatigué?</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:2">
+            <Brazil>Tambem, com essas perninhas miudas</Brazil>
+            <English>Well, with those tiny paws, is hard not to be</English>
+            <French>Eh bien, avec ces petites pattes, il est difficile de ne pas être</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:3">
+            <Brazil>Como você chegou aqui tao rapido!?</Brazil>
+            <English>How did you already get here?</English>
+            <French>Comment êtes-vous déjà arrivé ici ?</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:4">
+            <Brazil>Acho que isso nao importa agora</Brazil>
+            <English>I think this doesnt matter now</English>
+            <French>Je pense que cela n'a pas d'importance maintenant</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:5">
+            <Brazil>Deveria se importar mais com o mestre</Brazil>
+            <English>You should care more about master</English>
+            <French>Tu devrais te soucier plus du maître</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:6">
+            <Brazil>To vendo daqui o onibus dele chegando</Brazil>
+            <English>His bus is arriving</English>
+            <French>Son bus arrive</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:7">
+            <Brazil>Voce deve ter uns 2 minutos</Brazil>
+            <English>You probably have two minutes</English>
+            <French>Vous avez probablement deux minutes</French>
+        </Text>
+        <Text index="Dialogue:Inicial3:8">
+            <Brazil>Por ele eu consigo!</Brazil>
+            <English>For him, i can do it!</English>
+            <French>Pour lui, je peux le faire</French>
+        </Text>
+
+        <Text index="Dialogue:Inicial4:0">
+            <Brazil>Mãe, to indo pra casa do meu pai!</Brazil>
+            <English>Mom, im going to visit father!</English>
+            <French>Maman, je vais rendre visite à mon père</French>
+        </Text>
+        <Text index="Dialogue:Inicial4:1">
+            <Brazil>Ah nao, o mestre esta indo embora de novo!</Brazil>
+            <English>Oh no, master is going out again!</English>
+            <French>Oh non, le maitre sort</French>
+        </Text>
+        <Text index="Dialogue:Inicial4:2">
+            <Brazil>Devo ir atras dele!</Brazil>
+            <English>I have to go after him!</English>
+            <French>Je dois aller apres lui!</French>
+        </Text>
+
+        <Text index="Dialogue:TecoELuli:0">
+            <Brazil>Droga, esta trancada!</Brazil>
+            <English>Crap, is locked!</English>
+            <French>Zut, c´est verrouille!</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:1">
+            <Brazil>Ora ora, o que temos aqui?</Brazil>
+            <English>Well well, look at who we have here</English>
+            <French>Eh bien, regardez qui nous avons ici</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:2">
+            <Brazil>Teco, seu gato sujo!</Brazil>
+            <English>Teco, you filthy cat!</English>
+            <French>Teco, sale chat!</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:3">
+            <Brazil>O que você esta fazendo?</Brazil>
+            <English>What are you doing here?</English>
+            <French>Que faites vous ici?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:4">
+            <Brazil>Ah voce sabe, so esperando</Brazil>
+            <English>You know, just waiting</English>
+            <French>Tu sais, j'attends juste</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:5">
+            <Brazil>Por uma gatinha</Brazil>
+            <English>For a kitten</English>
+            <French>Pour une chatte</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:6">
+            <Brazil>E voce?</Brazil>
+            <English>And you?</English>
+            <French>Et vous?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:7">
+            <Brazil>Procurando pelo mestre</Brazil>
+            <English>Searching for our master</English>
+            <French>A la recherche de notre maitre</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:8">
+            <Brazil>Mas a porta esta trancada</Brazil>
+            <English>But the door is locked</English>
+            <French>Mais la porte est verrouillee</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:9">
+            <Brazil>Eu posso abrir ela</Brazil>
+            <English>I can open it</English>
+            <French>Je peux l´ouvrir</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:10">
+            <Brazil>Mas vai custar</Brazil>
+            <English>But it will cost</English>
+            <French>Mais ca coutera</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:11">
+            <Brazil>O que voce quer?</Brazil>
+            <English>What do you want?</English>
+            <French>Qu'est-ce que vous voulez?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:12">
+            <Brazil>Nao muito, so um peixe</Brazil>
+            <English>Not much, just a fish</English>
+            <French>Pas grand chose, juste un poisson</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:13">
+            <Brazil>Me traga e eu abro</Brazil>
+            <English>Bring it and i will open the door</English>
+            <French>Apportez-le et j'ouvrirai la porte</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli:14">
+            <Brazil>Temos um acordo seu fedido</Brazil>
+            <English>We have a deal, smelly</English>
+            <French>Nous avons un accord, puant</French>
+        </Text>
+
+        <Text index="Dialogue:TecoELuli2:0">
+            <Brazil>Conseguiu o peixe?</Brazil>
+            <English>Got the fish?</English>
+            <French>Vous avez le poisson?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli2:1">
+            <Brazil>Toma aqui e engole!</Brazil>
+            <English>Hope you choke on it!</English>
+            <French>J'espere que tu t'etoufferas avec ca</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli2:2">
+            <Brazil>Muito bem, espera um pouco</Brazil>
+            <English>Ok, wait just a second</English>
+            <French>D'accord, attends un peu</French>
+        </Text>
+
+        <Text index="Dialogue:TecoELuli3:0">
+            <Brazil>Ah nao, voce de novo</Brazil>
+            <English>Oh no,its you again</English>
+            <French>Oh non, c'est encore toi</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:1">
+            <Brazil>Em carne e cores</Brazil>
+            <English>In flesh and colors</English>
+            <French>En chair et en couleurs</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:2">
+            <Brazil>Cores? Você é branco e cinza!</Brazil>
+            <English>Colors? You are white and grey</English>
+            <French>Coleurs? Tu es blanc et gris!</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:3">
+            <Brazil>Ta, não importa, consegue abrir pra mim?</Brazil>
+            <English>Okay, it doesn't matter, can you open it for me?</English>
+            <French>D'accord, ça n'a pas d'importance, peux-tu l'ouvrir pour moi?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:4">
+            <Brazil>Depende. Consegue fazer um favor pra mim?</Brazil>
+            <English>It depends. Can you do me a favor?</English>
+            <French>Ça dépend. Peut tu me rendre un service?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:5">
+            <Brazil>De novo isso!? Que que ce quer?</Brazil>
+            <English>Again with this!? What do you want?</English>
+            <French>Encore avec ça !? Qu'est-ce que vous voulez?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:6">
+            <Brazil>Viu que a casa está cheia de ratos?</Brazil>
+            <English>Did you see that the house is full of rats?</English>
+            <French>Avez-vous vu que la maison est pleine de rats?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:7">
+            <Brazil>Dificil nao ver, ne?</Brazil>
+            <English>Hard not to see</English>
+            <French>Difficile de ne pas voir</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:8">
+            <Brazil>Nao era seu trabalho matar eles?</Brazil>
+            <English>Wait, it was your job to kill them</English>
+            <French>Attends, c'était ton travail de les tuer</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:9">
+            <Brazil>Mas pra que eu faria isso se voce ja vai fazer?</Brazil>
+            <English>And why i would do that if you are going to do it for me?</English>
+            <French>Et pourquoi je ferais ça si tu le fais pour moi?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:10">
+            <Brazil>O trato e o seguinte: Mata os ratos, eu abro a porta</Brazil>
+            <English>Here's the deal: Kill the rats and i open the door</English>
+            <French>Voici le deal : tuez les rats et j'ouvre la porte</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:11">
+            <Brazil>Voce nao vale o prato que come, sabia?</Brazil>
+            <English>You're not worth the dish you eat, you know?</English>
+            <French>Vous ne valez pas le plat que vous mangez, vous savez?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli3:12">
+            <Brazil>Tudo bem,eu aceito.</Brazil>
+            <English>All right, I accept. </English>
+            <French>D'accord, j'accepte.</French>
+        </Text>
+
+        <Text index="Dialogue:TecoELuli4:0">
+            <Brazil>Muito bem escrava, agora pega uma agua pra mim</Brazil>
+            <English>Well done slave, now get some water for me</English>
+            <French>Bravo esclave, maintenant prends de l'eau pour moi</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli4:1">
+            <Brazil>Ve se eu to na esquina Teco!</Brazil>
+            <English>Get lost Teco!</English>
+            <French>Ça suffit Teco!</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli4:2">
+            <Brazil>Voce nao tem senso de humor</Brazil>
+            <English>You lack any sense of humor</English>
+            <French>Tu n'as aucun sens de l'humour</French>
+        </Text>
+
+        <Text index="Dialogue:TecoELuli5:0">
+            <Brazil>Mas sabe Teco, diferente de você, eu nao sou preguicosa</Brazil>
+            <English>But you know Teco, unlike you, i'm not lazy</English>
+            <French>Mais tu connais Teco, contrairement à toi, je ne suis pas paresseux</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli5:1">
+            <Brazil>Ja me livrei de todos os ratos</Brazil>
+            <English>I already take care of all rats</English>
+            <French>J'ai tué tous les rats</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli5:2">
+            <Brazil>Qual sua desculpa agora?</Brazil>
+            <English>What is your excuse now?</English>
+            <French>Quelle est votre excuse maintenant?</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli5:3">
+            <Brazil>Que voce fez quando eu tava me preparando pra fazer</Brazil>
+            <English>That you did it while i was preparing myself</English>
+            <French>Que tu l'as fait pendant que je me préparais</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli5:4">
+            <Brazil>Abre logo esse portao</Brazil>
+            <English>Open this door already</English>
+            <French>Ouvre déjà cette porte</French>
+        </Text>
+        <Text index="Dialogue:TecoELuli5:5">
+            <Brazil>OU VAI SE JUNTAR A ELES!</Brazil>
+            <English>OR YOU WILL JOIN THEM!</English>
+            <French>OU TU REJOINDRAS ALORS!</French>
+        </Text>
+
+
+        
+        <Text index="Dialogue:BattleClub1:0">
+            <Brazil>Eu nunca tinha ido tao longe de casa</Brazil>
+            <English>I never have gone so far away from home</English>
+            <French>Je ne suis jamais allé si loin de chez moi</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:1">
+            <Brazil>Mas pelo mestre vale a pena!</Brazil>
+            <English>But for master, it is worth</English>
+            <French>Mais pour le maître, ça vaut la peine</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:2">
+            <Brazil>Anh?</Brazil>
+            <English>Uh?</English>
+            <French>Euh?</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:3">
+            <Brazil>Os preparativos estao completos?</Brazil>
+            <English>Everything is ready?</English>
+            <French>Tout est prêt?</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:4">
+            <Brazil>Tudo finalizado! Os cachorros ja estao todos la</Brazil>
+            <English>All in place. The dogs are already there too.</English>
+            <French>Tout en place. Les chiens sont déjà là aussi.</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:5">
+            <Brazil>Perfeito. Esta provavelmente vai ser a melhor sessao do clube da luta</Brazil>
+            <English>Perfect! This is going to be the best fight club session!</English>
+            <French>Parfait! Ça va être la meilleure séance de le club de combat!</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:6">
+            <Brazil>Ce ta maluco!? Esqueceu da primeira regra?</Brazil>
+            <English>Are you crazy!? Forgot about the first rule?</English>
+            <French>Êtes-vous fou!? Vous avez oublié la première règle?</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:7">
+            <Brazil>Ah e, nao pode falar sobre o... voce sabe</Brazil>
+            <English>Oh yeah, we cant talk about the... you know.</English>
+            <French>Oh ouais, on ne peut pas parler du... tu sais.</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:8">
+            <Brazil>Exato, imagina se tem um cachorro por...</Brazil>
+            <English>Exactly, just imagine what would happen if a dog was nearb...</English>
+            <French>Exactement, imaginez ce qui se passerait si un chien était à proximi...</French>
+        </Text>
+        <Text index="Dialogue:BattleClub1:9">
+            <Brazil>Oi, com licensa, por acaso voces nao viram um...</Brazil>
+            <English>Hi, excuse me, by chance you didn't see one...</English>
+            <French>Bonjour, excusez-moi, par hasard vous n'en avez pas vu...</French>
+        </Text>
+
+        <Text index="Dialogue:BattleClub2:0">
+            <Brazil>Espera, isso e...</Brazil>
+            <English>Wait, is that an...</English>
+            <French>Attendez, est-ce un...</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:1">
+            <Brazil>Acho que e sim...</Brazil>
+            <English>I think it is...</English>
+            <French>Je pense que c'est...</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:2">
+            <Brazil>UM CACHORRO!</Brazil>
+            <English>A DOG!</English>
+            <French>UN CHIEN!</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:3">
+            <Brazil>E agora? Estamos ferrados</Brazil>
+            <English>Oh god, we are screwed</English>
+            <French>Oh mon dieu, nous sommes foutus</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:4">
+            <Brazil>Calma, e so um filhote</Brazil>
+            <English>Calm down, its just a puppy</English>
+            <French>Calme-toi, c'est juste un chiot</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:5">
+            <Brazil>Nao se preocupa, eu resolvo</Brazil>
+            <English>Dont worry, i can solve this</English>
+            <French>Ne t'inquiète pas, je résous ça</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:6">
+            <Brazil>Ei cachorrinha, esquece tudo que ouviu aqui</Brazil>
+            <English>Hey, little dog, forget about everything you just heard!</English>
+            <French>Hé, petite chienne, oublie tout ce que tu viens d'entendre!</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:7">
+            <Brazil>Ou eu vou ficar muito zangado</Brazil>
+            <English>Or else im going to be realy mad</English>
+            <French>Ou bien je vais être vraiment fou</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:8">
+            <Brazil>E voce nao quer me ver zangado</Brazil>
+            <English>And you dont want to see me mad</English>
+            <French>Et tu ne veux pas me voir fou</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:9">
+            <Brazil>Pronto, ela ja deve estar tremendo de medo</Brazil>
+            <English>Okay, she must already be trembling with fear</English>
+            <French>D'accord, elle doit déjà trembler de peur</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:10">
+            <Brazil>"Que dupla de idiotas"</Brazil>
+            <English>"What an duo of idiots"</English>
+            <French>"Quelle paire d'idiots"</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:11">
+            <Brazil>Mostrou pra ela quem manda!</Brazil>
+            <English>Yeah, you just shown her who rules!</English>
+            <French>Ouais, tu viens de lui montrer qui gouverne!</French>
+        </Text>
+        <Text index="Dialogue:BattleClub2:12">
+            <Brazil>Agora vamos antes que voce faca mais bobagem</Brazil>
+            <English>Now lets go before you do something stupid</English>
+            <French>Maintenant, allons-y avant de faire quelque chose de stupide</French>
+        </Text>
+
+        <Text index="Dialogue:BattleClub3:0">
+            <Brazil>Gatos sao tao estranhos...</Brazil>
+            <English>Cats are weird...</English>
+            <French>Les chats sont bizarres...</French>
+        </Text>
+        <Text index="Dialogue:BattleClub3:1">
+            <Brazil>Mas isso nao importa, o mestre esta perto</Brazil>
+            <English>But it doesnt matter, master is very close now!</English>
+            <French>Mais ce n'est pas grave, le maître est très proche maintenant!</French>
+        </Text>
+        <Text index="Dialogue:BattleClub3:2">
+            <Brazil>Posso sentir o cheiro dele</Brazil>
+            <English>I can feel his smell</English>
+            <French>je peux sentir son odeur</French>
+        </Text>
+        <Text index="Dialogue:BattleClub3:3">
+            <Brazil>Se eu correr, consigo alcancar!</Brazil>
+            <English>If i run, i can reach him</English>
+            <French>Si je cours, je peux l'atteindre</French>
+        </Text>
+
+        <Text index="Dialogue:Final:0">
+            <Brazil>Ah nao, o onibus!</Brazil>
+            <English>Oh no, the bus!</English>
+            <French>Oh non, le bus</French>
+        </Text>
+
+        <Text index="Dialogue:Final1:0">
+            <Brazil>Eu... consegui...mestre...</Brazil>
+            <English>I... did it... master...</English>
+            <French>Je... l'ai fait... maître</French>
+        </Text>
+        <Text index="Dialogue:Final1:1">
+            <Brazil>Luli! Que que ce ta fazendo aqui?</Brazil>
+            <English>Luli! What are you doing here?</English>
+            <French>Luli! Que faites-vous ici?</French>
+        </Text>
+        <Text index="Dialogue:Final1:2">
+            <Brazil>Ah minha pequena, voce parece tao cansada</Brazil>
+            <English>Oh my baby, you look so tired</English>
+            <French>Oh mon petit, tu as l'air si fatigué</French>
+        </Text>
+        <Text index="Dialogue:Final1:3">
+            <Brazil>Eu... nao ia te deixar mestre...</Brazil>
+            <English>I... wouldnt let you go...</English>
+            <French>Je... ne te laisserais pas partir...</French>
+        </Text>
+        <Text index="Dialogue:Final1:4">
+            <Brazil>Ate seus latidos estao cansados</Brazil>
+            <English>Even your barks sound tired</English>
+            <French>Même tes aboiements semblent fatigués</French>
+        </Text>
+        <Text index="Dialogue:Final1:5">
+            <Brazil>Minha filhotinha, tao corajosa</Brazil>
+            <English>My little puppy, so brave</English>
+            <French>Mon petit chiot, si courageux</French>
+        </Text>
+        <Text index="Dialogue:Final1:6">
+            <Brazil>Descansa um pouco agora</Brazil>
+            <English>Take a rest here</English>
+            <French>Reposez-vous ici</French>
+        </Text>
+        <Text index="Dialogue:Final1:7">
+            <Brazil>Eu imagino que você não queria ficar longe de mim</Brazil>
+            <English>I imagine that you didnt want for me to leave you</English>
+            <French>J'imagine que tu ne voulais pas que je te quitte</French>
+        </Text>
+        <Text index="Dialogue:Final1:8">
+            <Brazil>Mas nao se preocupe, eu nunca vou te deixar</Brazil>
+            <English>But dont worry, i would never leave you</English>
+            <French>Mais ne t'inquiète pas, je ne te quitterais jamais</French>
+        </Text>
+        <Text index="Dialogue:Final1:9">
+            <Brazil>Vem ca Luli</Brazil>
+            <English>Come here my Luli</English>
+            <French>Viens ici luli</French>
+        </Text>
+
+
+        <Text index="Dialogue:Placeholder:0">
+            <Brazil>O que voce quer?</Brazil>
+            <English>What do you want?</English>
+            <French>Qu'est-ce que vous voulez?</French>
+        </Text>
+        <Text index="Dialogue:Placeholder:1">
+            <Brazil>Eu ia pedir algo, mas...</Brazil>
+            <English>I was going to ask something, but...</English>
+            <French>J'allais demander quelque chose, mais...</French>
+        </Text>
+        <Text index="Dialogue:Placeholder:2">
+            <Brazil>...como o jogo so vai ate aqui...</Brazil>
+            <English>...since the game stops here...</English>
+            <French>...puisque le jeu s'arrete ici..</French>
+        </Text>
+        <Text index="Dialogue:Placeholder:3">
+            <Brazil>...vou te deixar passar.</Brazil>
+            <English>...i will let you pass.</English>
+            <French>...je vais te laisser passer.</French>
+        </Text>
+        <Text index="Dialogue:Placeholder:4">
+            <Brazil>Que quebra da quarta parede.</Brazil>
+            <English>What a break in the fourth wall.</English>
+            <French>Quelle rupture dans le quatrième mur.</French>
+        </Text>
+    </Texts>
+</ItemCollection>
