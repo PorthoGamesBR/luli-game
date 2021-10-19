@@ -18,6 +18,8 @@ public class Ent_Combat : MonoBehaviour
     public Ent_Recoil entRecoil;
     public bool hasRecoil;
 
+    public GameObject deathBody;
+
     virtual public void Start()
     {
         maxLifes = lifes;
@@ -43,6 +45,10 @@ public class Ent_Combat : MonoBehaviour
     }
 
     virtual public void Die(){
+        if (deathBody != null)
+        {
+            Instantiate(deathBody, transform.position, Quaternion.identity);
+        }
         Destroy(this.gameObject);
     }
 

@@ -368,6 +368,8 @@
 "Assets/Scripts/Enemies/Attack_Tire.cs"
 "Assets/Scripts/Enemies/Basic_Enm.cs"
 "Assets/Scripts/Enemies/Blinking_Enm.cs"
+"Assets/Scripts/Enemies/Buldog_Boss.cs"
+"Assets/Scripts/Enemies/Buldog_Boss1.cs"
 "Assets/Scripts/Enemies/Buldog_Enm.cs"
 "Assets/Scripts/Enemies/Combat_Enm.cs"
 "Assets/Scripts/Enemies/DetectPlayer.cs"

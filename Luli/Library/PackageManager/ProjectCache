@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637689650344703257
-    m_Hash: 1858595648
+      ticks: 637689675979390293
+    m_Hash: 4084269173
   m_LockFileStatus:
     m_FilePath: E:/Luli/Project/luli-game/Luli/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637689650346581835
-    m_Hash: 756105529
+      ticks: 637689675980685469
+    m_Hash: 1714866194
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -956,12 +956,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.7
+- packageId: com.unity.ide.visualstudio@2.0.11
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.0.11
   source: 1
-  resolvedPath: E:\Luli\Project\luli-game\Luli\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+  resolvedPath: E:\Luli\Project\luli-game\Luli\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1024,13 +1024,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637486638490000000
+  datePublishedTicks: 637613656180000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: dec282022c7a95fada560c36f53da9dd155a142c
+    revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
     path: 
   unityLifecycle:
     version: 

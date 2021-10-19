@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1088561731678118751}
   - component: {fileID: 8821577263451337912}
   - component: {fileID: 8950416808347906203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackBody
-  m_TagString: Untagged
+  m_TagString: EnemyDamage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,9 +157,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5945193790808092540}
   - component: {fileID: 8022834361895108200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ClockAttack
-  m_TagString: Untagged
+  m_TagString: EnemyDamage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
