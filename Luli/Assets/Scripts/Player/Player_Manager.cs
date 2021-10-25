@@ -7,7 +7,7 @@ public class Player_Manager : MonoBehaviour
     public NumberToText bones_text;
 
     public Player_Move playerMove;
-    public Player_Combat playerCombat;
+   
     Player_Recoil playerRecoil;
 
     Player_ScaleAnim scaleAnim;
@@ -30,10 +30,19 @@ public class Player_Manager : MonoBehaviour
     
     public Particle runDust, fallParticle;
 
+    //Player Combat
+     public Player_Combat playerCombat;
+     public Lifes ui_lifes;
+     public NumberToText ui_extraLifes;
+     int _playerLifes;
+
     public void Start(){
       StartCoroutine(LateStart());  
       scaleAnim = GetComponentInChildren<Player_ScaleAnim>();
       playerSprt = GetComponentInChildren<Player_SpriteControler>();
+
+      _playerLifes = playerCombat.lifes;
+      ui_lifes.ConfigureHearts(_playerLifes);
     }
 
     public IEnumerator LateStart(){
@@ -44,7 +53,11 @@ public class Player_Manager : MonoBehaviour
 
     private void Update() {
 
+        //Player UI
         bones_text?.SetTextValue(bonesCollected);
+        _playerLifes = playerCombat.lifes;
+        ui_lifes.SetLifes(_playerLifes);
+        ui_extraLifes.SetTextValue(playerCombat.extraLifes);
 
         if(playerMove.runPressed && Mathf.Abs(playerMove.xMove) > 0 && playerMove.playerJump.isOnGround){
 

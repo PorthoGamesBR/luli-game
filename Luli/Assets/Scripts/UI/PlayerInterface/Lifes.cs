@@ -17,8 +17,18 @@ public class Lifes : MonoBehaviour
         boxWidth = this.GetComponent<RectTransform>().sizeDelta.x;
    }
 
+    int CheckAllActives(){
+        int ammount = 0;
+        foreach(GameObject heart in allHearts){
+            if(heart.activeSelf){
+                ammount++;
+            }
+        }
+        return ammount;
+    }
 
    public void ConfigureHearts(int number){
+       boxWidth = this.GetComponent<RectTransform>().sizeDelta.x;
        numberOfLifes = number;
        actualLifes = number;
     allHearts = new GameObject[numberOfLifes];
@@ -28,6 +38,19 @@ public class Lifes : MonoBehaviour
            startPos.localPosition = new Vector2
            (startPos.localPosition.x + boxWidth/numberOfLifes, startPos.localPosition.y);
            
+       }
+   }
+
+   public void SetLifes(int lifes){
+       if(lifes <= numberOfLifes && lifes >= 0){
+        if(CheckAllActives() != lifes){
+            //Organize active and inactive lifes
+            if(CheckAllActives() < lifes){
+                AddLifes(lifes - CheckAllActives());
+            }else{
+                LoseLifes(CheckAllActives() - lifes);
+            }
+        }
        }
    }
 

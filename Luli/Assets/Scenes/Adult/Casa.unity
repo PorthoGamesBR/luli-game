@@ -17939,9 +17939,17 @@ PrefabInstance:
       value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 7215703674221637244, guid: 513b9472558ac6e4d87d09634c577079, type: 3}
+      propertyPath: ui_lifes
+      value: 
+      objectReference: {fileID: 1216046842}
+    - target: {fileID: 7215703674221637244, guid: 513b9472558ac6e4d87d09634c577079, type: 3}
       propertyPath: bones_text
       value: 
       objectReference: {fileID: 2129296124}
+    - target: {fileID: 7215703674221637244, guid: 513b9472558ac6e4d87d09634c577079, type: 3}
+      propertyPath: ui_extraLifes
+      value: 
+      objectReference: {fileID: 908572148}
     - target: {fileID: 7215703674221637245, guid: 513b9472558ac6e4d87d09634c577079, type: 3}
       propertyPath: lifesBox
       value: 

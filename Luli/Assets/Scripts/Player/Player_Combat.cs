@@ -12,11 +12,6 @@ public class Player_Combat : Ent_Combat{
     public float hitBackForce = 100;
     public LayerMask enemyLayerMask;
 
-    //Player UI management
-    //TODO: Review this crap
-    [Header("UI")]
-    public NumberToText extraLife_text;
-    public Lifes lifesBox;
 
 
     //Variables and Logic
@@ -49,8 +44,6 @@ public class Player_Combat : Ent_Combat{
         yield return new WaitForSeconds(0.1f);
         //Do late start things
         //Please, review this UI things. They realy dont need to be directly associated with player combat
-        extraLife_text?.SetTextValue(extraLifes);
-        lifesBox.ConfigureHearts(lifes);
     }
     private void Update() {
         _extraLifes = extraLifes;
@@ -74,24 +67,19 @@ public class Player_Combat : Ent_Combat{
     }
     public void addExtraLifes(int extra){
         extraLifes += extra;
-        extraLife_text?.SetTextValue(extraLifes);
     }
 
     public void setExtraLifes(int total){
         extraLifes = total;
-         extraLife_text?.SetTextValue(total);
     }
     public void loseExtraLife(int lose){
         extraLifes -= lose;
-        extraLife_text?.SetTextValue(extraLifes);
         transform.position = lastCheckpoint;
     }
 
 //For enemy damage
     public override void Damage(int ammount, Attack damager)
     {
-        //Change the hearts on the UI
-        lifesBox.LoseLifes(ammount);
         //Do the normal damage
         base.Damage(ammount, damager);
         //Call the event      
@@ -103,10 +91,9 @@ public class Player_Combat : Ent_Combat{
 
 //For ambient Damage (That only applies to the player)
     public void AmbientDamage(int ammount, Transform damager){
-        //Do the same thing the base does with the life and change the UI
+        //Do the same thing the base does with the life
     if(!isInvencible){
         lifes -= ammount;
-        lifesBox.LoseLifes(ammount);
         if(lifes <= 0){
             Die();
         }else{
@@ -135,10 +122,8 @@ public class Player_Combat : Ent_Combat{
     public void Cure(int ammount){
         if(lifes + ammount <= maxLifes){
             lifes+= ammount;
-            lifesBox.AddLifes(ammount);
         }else{
             lifes = maxLifes;
-            lifesBox.AddLifes(maxLifes - lifes);
         }     
     }
 
