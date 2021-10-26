@@ -1206,10 +1206,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6708723716479954979, guid: 0ca2810a4547b834f8c60e8875d92b19, type: 3}
+      propertyPath: recoilStrenght
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708723716479954982, guid: 0ca2810a4547b834f8c60e8875d92b19, type: 3}
+      propertyPath: ui_lifes
+      value: 
+      objectReference: {fileID: 1216046842}
     - target: {fileID: 6708723716479954982, guid: 0ca2810a4547b834f8c60e8875d92b19, type: 3}
       propertyPath: bones_text
       value: 
       objectReference: {fileID: 2129296124}
+    - target: {fileID: 6708723716479954982, guid: 0ca2810a4547b834f8c60e8875d92b19, type: 3}
+      propertyPath: ui_extraLifes
+      value: 
+      objectReference: {fileID: 908572148}
     - target: {fileID: 6708723716479954983, guid: 0ca2810a4547b834f8c60e8875d92b19, type: 3}
       propertyPath: lifesBox
       value: 
